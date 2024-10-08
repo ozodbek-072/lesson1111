@@ -30,7 +30,21 @@
   text-align: left;
   color: var(--whiteColor);
   width: 541px;
+
 }
+@media (max-width: 537px) {
+   .card__fire--h1{
+    max-width: 350px;
+    font-size: 30px;
+    text-align: center; 
+   }}
+
+@media (max-width:411px) {
+  .alisher_yordami{
+    font-size: 11;
+    width: 40px;
+  }
+}   
 
 .cards__content--btn {
   padding: 21px 34px;
