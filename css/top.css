@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --toRightDark: rgb(3, 3, 3, 1);
+  --toRightBlue: rgb(89, 186, 255, 1);
+  --redShrink: rgb(0, 255, 0);
+  --whiteColor: rgba(255, 255, 255, 1);
+  --gameFutureColor: rgba(87, 184, 255, 1);
+  --gameBgP: rgba(153, 153, 153, 1);
+}
+
+html,
+body {
+  font-family: "Orbitron", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  /* 1440- 2 * 60 + 2 * 20 = 1360 */
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*  */
+

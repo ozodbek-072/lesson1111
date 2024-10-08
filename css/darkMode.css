@@ -1,0 +1,35 @@
+.mode-btn__img {
+  width: 48px;
+}
+
+.dark header {
+  background-image: linear-gradient(
+    to right,
+    var(--toRightBlue) 50%,
+    var(--toRightDark) 50%
+  );
+}
+.dark .navbar-shrink {
+  background: var(--gameBgP);
+}
+
+.dark .game-bg {
+  background-image: linear-gradient(
+    to right,
+    var(--toRightBlue) 50%,
+    var(--toRightDark) 50%
+  );
+}
+.dark .game-bg__fire--span {
+  color: var(--toRightDark);
+}
+
+.dark .game-bg__btn {
+  background-color: var(--toRightDark);
+}
+
+
+/*  */
+
+
+
